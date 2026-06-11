@@ -1,4 +1,4 @@
-# Gerenciador de Cursos com React e Tailwind CSS
+# Gerenciador de Certificados com React e Tailwind CSS
 
 Aplicação desenvolvida para organizar certificados, cursos, e outras atividades acadêmicas e profissionais.
 
@@ -63,7 +63,7 @@ gerenciador-certificados/
 ## Como rodar localmente
 
 - Clone o repositório
-git clone https://github.com/beatrizalmc/gerenciador-certificados.git
+git clone https://github.com/beatrizalmc/gerenciador-de-cursos-react
 
 - Entre na pasta do projeto
 cd gerenciador-certificados
