@@ -21,10 +21,10 @@ function CertificationCard({
         <section className="container mx-auto px-4 pt-8 pb-6">
             <div className="flex flex-row justify-between items-start">
                 <div className="flex flex-row gap-3 pb-2">
-                    <span className={`border border-gray-400 rounded-lg px-2 text-sm ${typeColors[type] || 'bg-gray-300'}`}>
+                    <span className={`border border-gray-400 rounded-lg px-2 text-xs sm:text-sm ${typeColors[type] || 'bg-gray-300'}`}>
                         {type}
                     </span>
-                    <span className={`border border-white rounded-lg px-2 text-sm ${statusColors[status] || 'bg-gray-300'}`}>
+                    <span className={`border border-white rounded-lg px-2 text-xs sm:text-sm ${statusColors[status] || 'bg-gray-300'}`}>
                         {status}
                     </span>
                 </div>
@@ -45,19 +45,19 @@ function CertificationCard({
                 </div>
             </div>
             <div>
-                <h3 className="text-lg font-semibold">{title}</h3>
-                <p className="text-gray-500">{platform}</p>
+                <h3 className="text-md sm:text-lg font-semibold">{title}</h3>
+                <p className="text-gray-500 text-sm sm:text-md">{platform}</p>
             </div>
             <div>
-                <p className="text-gray-500 pt-6 pb-2">{description}</p>
+                <p className="text-gray-500 pt-6 pb-2 text-sm sm:text-md">{description}</p>
             </div>
             <div className="flex flex-row gap-4 border-b border-gray-300 pb-2">
-                <p className="text-gray-500 text-sm">{year}</p>
-                <p className="text-gray-500 text-sm">{hours}h</p>
+                <p className="text-gray-500 text-xs sm:text-sm">{year}</p>
+                <p className="text-gray-500 text-xs sm:text-sm">{hours}h</p>
             </div>
             <div className="pt-2">
-                <p className="text-gray-800 text-sm">{curriculum ? "Adicionado ao currículo" : "NÃO adicionado ao currículo"}</p>
-                <p className="text-gray-800 text-sm">{extracurricular ? "Registrado como atividade extracurricular" : "NÃO registrado na faculdade"}</p>
+                <p className="text-gray-800 text-xs sm:text-sm">{curriculum ? "Adicionado ao currículo" : "NÃO adicionado ao currículo"}</p>
+                <p className="text-gray-800 text-xs sm:text-sm">{extracurricular ? "Registrado como atividade extracurricular" : "NÃO registrado na faculdade"}</p>
             </div>
         </section>
     );
