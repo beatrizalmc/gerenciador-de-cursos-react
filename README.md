@@ -1,6 +1,12 @@
-# Portfólio Pessoal
+# Gerenciador de Cursos com React e Tailwind CSS
 
-???
+Aplicação desenvolvida para organizar certificados, cursos, e outras atividades acadêmicas e profissionais.
+
+O projeto permite cadastrar, editar, excluir e filtrar certificados de forma simples e intuitiva, além de armazenar todas as informações localmente utilizando LocalStorage, garantindo que os dados permaneçam salvos mesmo após atualizar a página.
+
+Durante o desenvolvimento foram aplicados conceitos importantes de React, como componentização, gerenciamento de estado com Hooks, passagem de propriedades (props), renderização dinâmica de listas, formulários controlados e persistência de dados.
+
+O principal objetivo do projeto foi praticar o desenvolvimento de aplicações front-end modernas utilizando React e Tailwind CSS. E também para meu uso pessoal.
 
 ## Funcionalidades
 
@@ -56,7 +62,37 @@ gerenciador-certificados/
 
 ## Como rodar localmente
 
-???
+- Clone o repositório
+git clone https://github.com/beatrizalmc/gerenciador-certificados.git
+
+- Entre na pasta do projeto
+cd gerenciador-certificados
+
+- Instale as dependências
+npm install
+
+- Execute o projeto
+npm run dev
+
+- Após iniciar o servidor, acesse:
+http://localhost:5173
+
+---
+
+## Aprendizados
+
+Durante o desenvolvimento deste projeto foram praticados conceitos como:
+
+* Componentização com React
+* Gerenciamento de estado com useState
+* Efeitos colaterais com useEffect
+* Manipulação de formulários controlados
+* CRUD completo (Create, Read, Update e Delete)
+* Persistência de dados com LocalStorage
+* Filtragem dinâmica de dados
+* Busca em tempo real
+* Responsividade utilizando Tailwind CSS
+* Organização e reutilização de componentes
 
 ---
 

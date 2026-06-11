@@ -68,7 +68,14 @@ function App() {
   return (
     <>
       <Header />
-      <FiltersArea openModal={() => setIsModalOpen(true)} selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
+      <FiltersArea
+        openModal={() => {
+          setEditingCertification(null);
+          setIsModalOpen(true);
+        }}
+        selectedCategory={selectedCategory}
+        setSelectedCategory={setSelectedCategory}
+      />
       <DashboardStats certifications={certifications} />
       <CertificationsList certifications={certifications} searchTerm={searchTerm} setSearchTerm={setSearchTerm} statusFilter={statusFilter} setStatusFilter={setStatusFilter} selectedCategory={selectedCategory} deleteCertification={deleteCertification} handleEdit={handleEdit} />
       {isModalOpen && (
