@@ -1,4 +1,4 @@
-# Gerenciador de Cursos com React e Tailwind CSS
+# Gerenciador de Certificados com React e Tailwind CSS
 
 Aplicação desenvolvida para organizar certificados, cursos, e outras atividades acadêmicas e profissionais.
 
